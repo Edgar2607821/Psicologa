@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encuesta Ansiedad de Beck</title>
+
+    <!-- Add your styles or link to an external stylesheet here -->
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f8f8f8;
+            margin: 0;
+            padding: 0;
+        }
+
+        #form-container {
+            max-width: 600px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .forminator-title {
+            font-size: 24px;
+            color: #333;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .forminator-field {
+            margin-bottom: 15px;
+        }
+
+        .forminator-label {
+            display: block;
+            font-size: 14px;
+            margin-bottom: 5px;
+            color: #555;
+        }
+
+        .forminator-input,
+        .forminator-select--field,
+        .forminator-datepicker {
+            width: 100%;
+            padding: 10px;
+            box-sizing: border-box;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            background-color: #f9f9f9;
+            font-size: 14px;
+            color: #555;
+        }
+
+        .forminator-field-group::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        .forminator-col {
+            float: left;
+            width: 48%;
+            margin-right: 2%;
+        }
+
+        .forminator-submit {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            display: block;
+            width: 100%;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="form-container">
+        <form class="forminator-ui forminator-custom-form forminator-custom-form-8631 forminator-design--material forminator_ajax"
+            data-design="material" data-form-id="8631" data-forminator-render="0" data-grid="open"
+            id="forminator-module-8631" method="post">
+
+            <div class="forminator-response-message forminator-error" aria-hidden="true"></div>
+
+            <div class="forminator-field">
+                <h2 class="forminator-title">ENCUESTA ANSIEDAD DE BECK</h2>
+            </div>
+
+            <div class="forminator-field">
+                <label class="forminator-label" for="forminator-field-text-6">Grupo:</label>
+                <input class="forminator-input forminator-name--field" data-required="" id="forminator-field-text-6"
+                    name="text-6" placeholder="" type="text" value="" />
+            </div>
+
+            <div class="forminator-field-group">
+                <div class="forminator-field forminator-col">
+                    <label class="forminator-label" for="forminator-field-text-1">Nombre(s):</label>
+                    <input class="forminator-input forminator-name--field" data-required="" id="forminator-field-text-1"
+                        name="text-1" placeholder="" type="text" value="" />
+                </div>
+
+                <div class="forminator-field forminator-col">
+                    <label class="forminator-label" for="forminator-field-text-4">Apellidos:</label>
+                    <input class="forminator-input forminator-name--field" data-required="" id="forminator-field-text-4"
+                        name="text-4" placeholder="" type="text" value="" />
+                </div>
+            </div>
+
+            <div class="forminator-field-group">
+                <div class="forminator-field forminator-col">
+                    <label class="forminator-label" for="forminator-field-number-1">Edad: <span
+                            class="forminator-required">*</span></label>
+                    <input aria-required="true" class="forminator-input forminator-number--field" data-decimals="0"
+                        data-inputmask="'groupSeparator': '', 'radixPoint': '', 'digits': '0'" data-required="1"
+                        id="forminator-field-number-1" inputmode="decimal" name="number-1" placeholder="" type="number"
+                        value="" />
+                </div>
+
+                <div class="forminator-field forminator-col">
+                    <label class="forminator-label" for="forminator-form-8631__field--select-1-label">Sexo:</label>
+                    <select class="forminator-select--field forminator-select2" data-default-value=""
+                        data-placeholder="" data-required="" data-search="false"
+                        id="forminator-form-8631__field--select-1" name="select-1">
+                        <option data-calculation="0" value="Hombre">Hombre</option>
+                        <option data-calculation="0" value="Mujer">Mujer</option>
+                        <option data-calculation="0" value="Otro">Otro</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="forminator-field-group">
+                <div class="forminator-field forminator-col">
+                    <label class="forminator-label" for="forminator-field-text-3">Número de lista:</label>
+                    <input class="forminator-input forminator-name--field" data-required="" id="forminator-field-text-3"
+                        name="text-3" placeholder="" type="text" value="" />
+                </div>
+
+                <div class="forminator-field forminator-col">
+                    <label class="forminator-label" for="forminator-field-date-1-picker-655027e0c0eec">Fecha:</label>
+                    <div class="forminator-input-with-icon">
+                        <label for="forminator-field-date-1-picker-655027e0c0eec"><span aria-hidden="true"
+                                class="forminator-icon-calendar"></span></label><input autocomplete="off"
+                            class="forminator-input forminator-datepicker" data-disable-date="" data-disable-range=""
+                            data-end-date="" data-end-field="" data-end-offset="" data-end-year="2123"
+                            data-format="mm/dd/yy" data-past-dates="enable" data-required="" data-restrict=""
+                            data-restrict-type="" data-start-date="" data-start-field="" data-start-of-week="1"
+                            data-start-offset="" data-start-year="1923"
+                            id="forminator-field-date-1-picker-655027e0c0eec" name="date-1" placeholder="Selecciona"
+                            size="1" type="text" value="" />
+                    </div>
+                </div>
+            </div>
+            <div class="forminator-field">
+                <p class="forminator-radio-label">1. Entumecimiento, Hormigueo</p>
+                <div class="forminator-radio-group">
+                    <label class="forminator-radio">
+                        <input type="radio" name="entumecimiento" value="poco_nada"> Poco o nada
+                    </label>
+                    <label class="forminator-radio">
+                        <input type="radio" name="entumecimiento" value="mas_o_menos"> Más o menos
+                    </label>
+                    <label class="forminator-radio">
+                        <input type="radio" name="entumecimiento" value="moderadamente"> Moderadamente
+                    </label>
+                    <label class="forminator-radio">
+                        <input type="radio" name="entumecimiento" value="severamente"> Severamente
+                    </label>
+                </div>
+            </div>
+
+            <div class="forminator-field">
+                <p class="forminator-radio-label">2. Sentir Oleadas de Calor (Bochorno)</p>
+                <div class="forminator-radio-group">
+                    <label class="forminator-radio">
+                        <input type="radio" name="oleadas_calor" value="poco_nada"> Poco o nada
+                    </label>
+                    <label class="forminator-radio">
+                        <input type="radio" name="oleadas_calor" value="mas_o_menos"> Más o menos
+                    </label>
+                    <label class="forminator-radio">
+                        <input type="radio" name="oleadas_calor" value="moderadamente"> Moderadamente
+                    </label>
+                    <label class="forminator-radio">
+                        <input type="radio" name="oleadas_calor" value="severamente"> Severamente
+                    </label>
+                </div>
+            </div>
+
+            <div class="forminator-field">
+                <p class="forminator-radio-label">3. Debilitamiento de las Piernas</p>
+                <div class="forminator-radio-group">
+                    <label class="forminator-radio">
+                        <input type="radio" name="debilitamiento_piernas" value="poco_nada"> Poco o nada
+                    </label>
+                    <label class="forminator-radio">
+                        <input type="radio" name="debilitamiento_piernas" value="mas_o_menos"> Más o menos
+                    </label>
+                    <label class="forminator-radio">
+                        <input type="radio" name="debilitamiento_piernas" value="moderadamente"> Moderadamente
+                    </label>
+                    <label class="forminator-radio">
+                        <input type="radio" name="debilitamiento_piernas" value="severamente"> Severamente
+                    </label>
+                </div>
+            </div>
+
+            <div class="forminator-field">
+                <p class="forminator-radio-label">4. Dificultad para Relajarse</p>
+                <div class="forminator-radio-group">
+                    <label class="forminator-radio">
+                        <input type="radio" name="dificultad_relajarse" value="poco_nada"> Poco o nada
+                    </label>
+                    <label class="forminator-radio">
+                        <input type="radio" name="dificultad_relajarse" value="mas_o_menos"> Más o menos
+                    </label>
+                    <label class="forminator-radio">
+                        <input type="radio" name="dificultad_relajarse" value="moderadamente"> Moderadamente
+                    </label>
+                    <label class="forminator-radio">
+                        <input type="radio" name="dificultad_relajarse" value="severamente"> Severamente
+                    </label>
+                </div>
+            </div>
+
+            <div class="forminator-field">
+                <button type="submit" class="forminator-submit">Enviar</button>
+            </div>
+
+        </form>
+    </div>
+
+</body>
+
+</html>
