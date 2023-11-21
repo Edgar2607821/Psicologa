@@ -1,0 +1,47 @@
+/* Apply a max-width to the form */
+#forminator-module-8631 {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Style the form title */
+.forminator-title {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Style the form labels */
+.forminator-label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+/* Style the form inputs */
+.forminator-input,
+.forminator-select--field,
+.forminator-datepicker {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+/* Style the submit button */
+.forminator-ui .forminator-submit {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Add some spacing between form sections */
+.forminator-row {
+    margin-bottom: 20px;
+}
